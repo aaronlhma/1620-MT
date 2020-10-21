@@ -1,0 +1,53 @@
+@font-face{
+    font-family:'Roboto';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,700&display=swap');
+    font-weight:normal;
+    font-style:normal;
+}
+header{
+    background-color:#7e8a97;
+    text-align:center;
+    position:sticky;
+    top: 0;
+    padding:10px;
+}
+
+
+body {
+    background-color:#cbaf87;
+    color:#30475e;
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+
+}
+
+nav ul li a:link{
+    color:rgb(31,183,221);
+}
+nav ul li a:visited{
+    color:silver;
+}
+
+section {
+    background-color:#e7dec8;
+    margin: 10px;
+    margin-top: 40px;
+    padding: 5px;
+
+}
+
+.pizza {
+    float: left;
+    padding-right: 10px;
+}
+
+ul.list li { color:teal;}
+
+p {position:relative;}
+
+h2{ text-align:center;}
+
+div{
+    overflow:hidden;
+}
